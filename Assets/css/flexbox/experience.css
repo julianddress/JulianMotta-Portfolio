@@ -1,0 +1,28 @@
+.experience{
+    display: flex;
+    justify-content: center;
+}
+
+.experience__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.experience__item-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

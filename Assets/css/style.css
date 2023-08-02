@@ -1,0 +1,65 @@
+:root{
+    /* Colores de fondo*/
+    --background-section-nav: #F2E8E8;
+    --background-section-cover: rgb(0, 0, 0);
+    --background-section-about: rgb(34, 32, 53);
+    --background-section-experience: #222035;
+    --background-section-portfolio: rgb(32, 38, 55);
+    --background-circle-nav: #53BAC0;
+
+    /* Color de fondo - Linear gradient */
+    --background-cover-star: rgb(0, 0, 0) 10%;
+    --background-cover-middle: rgb(1, 1, 1) 50%;
+    --background-cover-end: rgb(15, 15, 15, 100%);
+    --background-about-end: rgb(34, 32, 53, 100%);
+    --background-circle-start: rgba(133, 89, 228, 0.4);
+    --background-circle-end: rgba(157, 128, 239, 0.9);
+    --background-education-start: #7E3DBF;
+    --background-education-middle: #813DBF;
+    --background-education-end: #7F46F5;
+
+    /* Fuentes y bordes*/
+    --fonts-white: #FFFFFF;
+    --fonts-selected: #24FDF5;
+    --border-div: #24FDF5;
+    --fonts-grey: #979090;
+    --fonts-red: #EC0D0D;
+    --font-black: #000000;
+    --font-blue-ocean: #4A9296;
+
+    /* Botones */
+    --boton-rojo: #E92114;
+    --boton-border-orange: #FF4C00;
+
+    /* Font Family */
+    --raleway: 'Noto Sans JP', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+body{   
+    font-family: var(--raleway);
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--fonts-white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--fonts-grey);
+}
+

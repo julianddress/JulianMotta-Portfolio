@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+    align-self: center;
+}
+
+.three{
+    display: flex;
+    align-self: flex-end;
+}
+
+.about__items-separador{
+    display: flex;
+    justify-content: center;
+}
+
+.about__title{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__overview{
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__profile{
+    display: flex;
+    align-items: flex-end;
+}
+
+.cover__btn-download-cv{
+    display: flex;
+    align-items: center;
+}
+
+.cover__row-image{
+    display: flex;
+    align-content: center;
+}

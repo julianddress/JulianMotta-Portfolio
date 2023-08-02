@@ -1,0 +1,78 @@
+.cover{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(var(--background-cover-star), var(--background-cover-middle), var(--background-cover-end));
+}
+
+.cover__overview{
+    max-width: 300px;
+    height: auto; 
+}
+
+.cover__text-title{
+    text-transform: uppercase;
+    color: var(--fonts-white);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    margin-bottom: 40px;
+}
+
+.cover__text{
+    font-size: 20px;
+    color: var(--fonts-grey);
+    font-weight: 400;
+    letter-spacing: 10%;
+}
+
+.cover__profile{
+    height: auto;
+    margin: 100px 120px 0;
+}
+
+.cover__greeting{
+    max-width: 340px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--fonts-white);
+}
+
+.cover__name{
+    color: var(--fonts-red);
+}
+
+.cover__profession{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--fonts-white);
+    margin-top: 20px;
+}
+
+.cover__btn-download-cv{
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 15px;
+    background-color: var(--boton-rojo);
+    border-color: var(--boton-rojo);
+    margin: 50px 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+.cover__btn-download-cv:hover{
+    cursor: pointer;
+}
+
+.cover__row-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--fonts-white);
+    text-decoration: none;
+}
+
+.cover__row-image{
+    height: auto;
+    margin-left: 20px;
+}
