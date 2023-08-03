@@ -12,12 +12,12 @@
 
 .circle-right{
     position: absolute;
-    right: -100px;
-    top: -130px;
+    right: 0;
+    top: -100px;
     background-image: linear-gradient( var(--background-circle-start), var(--background-circle-end)); 
-    width: 270px;
-    height: 270px;
-    border-radius: 100%;
+    width: 150px;
+    height: 250px;
+    border-radius: 250px 0 0 250px;
 }
 
 .circle-left{
@@ -35,7 +35,7 @@
 }
 
 .education__academic{
-    width: 1200px;
+    max-width: 1200px;
     height: auto;
     margin: 50px 0 100px 0;
 }
@@ -45,12 +45,13 @@
 .education__hobbies-list{
     width: 100%;
     height: auto;
+    margin: 100px 0;
 }
 
 .education__academic-title,
 .education__hobbies-title{
     text-transform: none;
-    margin: 20px 0;
+    margin: 20px 0 20px 40px;
 }
 
 .education__academic-item{

@@ -17,7 +17,7 @@ window.addEventListener("click", function(event) {
         }
         // Guardamos el nuevo elemento clickeado como el elemento seleccionado actualmente
         selectedElement = event.target;
-        
+
         // Agregamos la clase "selected" al nuevo elemento clickeado
         selectedElement.classList.add("selected");
     }
@@ -37,28 +37,34 @@ window.addEventListener("click", function(event){
 });
 
 let girar = null;
-const projectShow = document.querySelector('.portfolio__project-row');
+const projectShow = document.querySelector('.portfolio__projects');
 
 projectShow.addEventListener("click", (event) => {
-    const rotarRow = document.querySelector('.flipped')
-    const mostrarow = document.querySelector('.data')
-    const textRow =  document.querySelector('.text-row')
+    const flippedElements = document.getElementsByClassName('flipped');
+    const rowImage = Array.from(flippedElements);
 
-    if(event.target === rotarRow){
-        if(girar == null){
-            rotarRow.style.transform = 'scaleX(-1)';
-            mostrarow.style.display = 'block';
-            textRow.textContent = "Ocultar";
-            girar = true;
-        }else{
-            rotarRow.style.transform = 'scaleX(1)';
-            mostrarow.style.display = 'none';
-            textRow.textContent = "Revisar";
-            girar = null;
+    const infoData = document.getElementsByClassName('data');
+    const showData = Array.from(infoData);
+
+    const revisarText = document.getElementsByClassName('text-row');
+    const text = Array.from(revisarText);
+
+    // Iteramos por los elementos del array rowImage
+    for (let i = 0; i < rowImage.length; i++) {
+        // Comprobamos si el elemento clickeado es igual al elemento actual del array
+        if (event.target === rowImage[i]) {
+            if (girar === null) {
+                rowImage[i].style.transform = 'scaleX(-1)';
+                showData[i].style.display = 'block';
+                text[i].textContent = "Ocultar";
+                girar = true;
+            } else {
+                rowImage[i].style.transform = 'scaleX(1)';
+                showData[i].style.display = 'none';
+                text[i].textContent = "Revisar";
+                girar = null;
+            }
+            break; // Importante: Salimos del bucle para evitar cambiar otros elementos no clickeados
         }
     }
 });
-
-
-
-
