@@ -51,7 +51,7 @@
 .education__academic-title,
 .education__hobbies-title{
     text-transform: none;
-    margin: 20px 0 20px 40px;
+    margin: 20px 0 20px 0;
 }
 
 .education__academic-item{

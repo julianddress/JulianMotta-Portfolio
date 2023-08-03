@@ -39,8 +39,17 @@
 
 .portfolio__project-preview{
     position: relative;
-    width: 520px;
+    width: 500px;
     height: 440px;
+    margin-bottom: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
 }
 
 .portfolio__project-top{
@@ -59,7 +68,7 @@
 .portfolio__project-decoration{
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 5%;
     width: 400px;
     height: 300px;
     border-width: 8px;
@@ -70,7 +79,7 @@
 
 .portfolio__project-image{
     position: absolute;
-    left: 16%;
+    left: 11%;
     top: 13%;
 }
 
