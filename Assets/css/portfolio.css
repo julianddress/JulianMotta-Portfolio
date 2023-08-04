@@ -31,7 +31,7 @@
 }
 
 .portfolio__projects{
-    width: 1000px;
+    width: 980px;
     height: auto;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -46,10 +46,6 @@
 
 .hide{
     display: none;
-}
-
-.show{
-    display: block;
 }
 
 .portfolio__project-top{

@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="Assets/css/flexbox/portfolio.css">
     <link rel="stylesheet" href="Assets/css/education.css">
     <link rel="stylesheet" href="Assets/css/flexbox/education.css">
+    <link rel="stylesheet" href="Assets/css/contact.css">
+    <link rel="stylesheet" href="Assets/css/flexbox/contact.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;500;600;700&display=swap">
 </head>
 <body>
@@ -156,7 +158,7 @@
 
                 <!-- Contenedor del diseño y la imagen del proyecto -->
                 <div class="portfolio__project-preview sp">
-                    <div class="portfolio__project-top click__img">
+                    <div class="portfolio__project-top">
                         <span class="portfolio__project-text text-row">Revisar</span>
                         <img src="Assets/images/icons/right_row.svg" alt="Flecha derecha" class="portfolio__project-row flipped">
                     </div>
@@ -165,10 +167,32 @@
                 </div>
 
                 <!-- Contenedor de la informacion del proyecto -->
-                <div class="portfolio__project-info data sp">
+                <div class="portfolio__project-info data">
                     <h2 class="portfolio__project-title">Encriptador y Desencriptador de Texto</h2>
                     <p class="portfolio__project-description">
                         El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal.
+                    </p>
+                    <ul class="portfolio__project-list">
+                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link signo">+</a></li>
+                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link" target="_blank">Repositorio</a></li>
+                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link" target="_blank">Demo</a></li>
+                    </ul>
+                </div> 
+                
+                <!-- PROYECTOS FRONT END -->
+                <div class="portfolio__project-preview fe">
+                    <div class="portfolio__project-top">
+                        <span class="portfolio__project-text text-row">Revisar</span>
+                        <img src="Assets/images/icons/right_row.svg" alt="Flecha derecha" class="portfolio__project-row flipped">
+                    </div>
+                    <div class="portfolio__project-decoration"></div>
+                    <img src="Assets/images/encriptador.png" alt="Proyecto IMPOLUJOS LED" class="portfolio__project-image">
+                </div>
+
+                <div class="portfolio__project-info data">
+                    <h2 class="portfolio__project-title">Lucamo - Proximamente Disponible</h2>
+                    <p class="portfolio__project-description">
+                        Aun en desarrollo...
                     </p>
                     <ul class="portfolio__project-list">
                         <li class="portfolio__project-item"><a href="#" class="portfolio__project-link signo">+</a></li>
@@ -176,8 +200,6 @@
                         <li class="portfolio__project-item"><a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">Demo</a></li>
                     </ul>
                 </div> 
-                
-                <!-- PROYECTO NUMERO 2 -->
             </div>
         </section>
 
@@ -251,6 +273,51 @@
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact__title">contacto</h2>
+            <div class="contact__content">
+                <div class="contact__media">
+                    <h3 class="contact__subtitulo">dejame un mensaje</h3>
+                    <span class="contact__parrafo">Para procesos de contratación o proyectos personales no dudes en contactarme.</span>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <img src="Assets/images/icons/whatsapp.svg" alt="Icono de whatsapp" class="contact__icon">
+                            <span class="contact__icon-text">Whatsapp</span>
+                        </li>
+                        <li class="contact__item">
+                            <img src="Assets/images/icons/email.svg" alt="Icono de email" class="contact__icon">
+                            <span class="contact__icon-text">Redactar Correo</span>
+                        </li>
+                        <li class="contact__item">
+                            <img src="Assets/images/icons/phone.svg" alt="Icono de un celular" class="contact__icon">
+                            <span class="contact__icon-text">Llamar</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="" class="form">
+                    <fieldset>
+                        <div class="input-container">
+                            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                            <label class="input-label" for="name">Nombre</label>
+                            <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                        </div>
+                        <div class="input-container">
+                            <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                            <label class="input-label" for="email">Email</label>
+                            <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="mensaje" id="mensaje" class="input mensaje" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                            <label class="input-label" for="mensaje">Mensaje</label>
+                            <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                        </div>
+                        <button type="submit" class="contact__btn">Enviar</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
 

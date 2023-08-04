@@ -26,8 +26,13 @@
 }
 
 .cover__profile{
+    position: relative;
     height: auto;
     margin: 100px 120px 0;
+}
+
+.cover__img{
+    position: absolute;
 }
 
 .cover__greeting{

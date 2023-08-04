@@ -28,27 +28,42 @@ window.addEventListener("click", function(event) {
 });
 
 
-// JAVASCRIPT PARA LA SECTION PORTFOLIO OPTIONS
+// DOM EN LA SECTION PORTFOLIO
 
+const infoData = document.getElementsByClassName('data');
+const showData = Array.from(infoData);
+
+const flippedElements = document.getElementsByClassName('flipped');
+const rowImage = Array.from(flippedElements);
+
+const revisarText = document.getElementsByClassName('text-row');
+const text = Array.from(revisarText);
+
+const a = document.querySelector(".front");
+const b = document.querySelector(".full");
+const c = document.querySelector(".simple");
+
+const frontEnd = document.getElementsByClassName('fe');
+const listFront = Array.from(frontEnd);
+
+const backEnd = document.getElementsByClassName('fs');
+const listBack = Array.from(backEnd);
+
+const simplePage = document.getElementsByClassName('sp');
+const listSimple = Array.from(simplePage);
+
+let girar = null;
 let selected = null;
 
+
+// JAVASCRIPT PARA LA SECTION PORTFOLIO OPTIONS
+
 window.addEventListener("click", function (event) {
-    const a = document.querySelector(".front");
-    const b = document.querySelector(".full");
-    const c = document.querySelector(".simple");
-
-    const frontEnd = document.getElementsByClassName('fe');
-    const listFront = Array.from(frontEnd);
-
-    const backEnd = document.getElementsByClassName('fs');
-    const listBack = Array.from(backEnd);
-
-    const simplePage = document.getElementsByClassName('sp');
-    const listSimple = Array.from(simplePage);
 
     const projects = [listFront, listBack, listSimple];
     const options = [a, b, c];
 
+    // RECORREMOS LAS OPCIONES PARA VER CUAL CLICKEAMOS
     for (let x = 0; x < options.length; x++) {
         if (event.target === options[x]) {
             if (selected) {
@@ -57,14 +72,18 @@ window.addEventListener("click", function (event) {
             selected = event.target;
             selected.classList.add("chosen");
 
+            // RECORREMOS LOS PROYECTOS PARA AÑADIR O ELIMINAR LA CLASE HIDE
             for (let y = 0; y < projects.length; y++) {
+
+                // COMPARAMOS DOS ARRAYS
                 if (x === y) {
                     projects[y].forEach(item => item.classList.remove("hide"));
                 } else {
                     projects[y].forEach(item => item.classList.add("hide"));
                 }
             }
-            break;
+
+            break; // SALIMOS DEL BUCLE PARA NO ITERAR EN TODAS LAS OPCIONES (SOLO EN LA CLICKEADA)
         }
     }
 });
@@ -72,22 +91,12 @@ window.addEventListener("click", function (event) {
 
 // JAVASCRIPT PARA LA SECTION PORTFOLIO PROJECTS
 
-let girar = null;
-const projectShow = document.querySelector('.portfolio__projects');
-
-projectShow.addEventListener("click", (event) => {
-    const flippedElements = document.getElementsByClassName('flipped');
-    const rowImage = Array.from(flippedElements);
-
-    const infoData = document.getElementsByClassName('data');
-    const showData = Array.from(infoData);
-
-    const revisarText = document.getElementsByClassName('text-row');
-    const text = Array.from(revisarText);
+window.addEventListener("click", (event) => {
 
     // Iteramos por los elementos del array rowImage
     for (let i = 0; i < rowImage.length; i++) {
-        // Comprobamos si el elemento clickeado es igual al elemento actual del array
+
+        // Comprobamos si el elemento clickeado es igual a algun elemento del array
         if (event.target === rowImage[i]) {
             if (girar === null) {
                 rowImage[i].style.transform = 'scaleX(-1)';
@@ -103,4 +112,15 @@ projectShow.addEventListener("click", (event) => {
             break; // Importante: Salimos del bucle para evitar cambiar otros elementos no clickeados
         }
     }
+});
+
+// JAVASCRIPT PARA HACER UN RESET EN LOS ESTILOS DE LOS PROYECTOS
+
+const projects = document.querySelector(".portfolio__item");
+
+projects.addEventListener("click", () => {
+    // HACEMOS UN RESET DE LOS ELEMENTOS DE LOS PROYECTOS
+    rowImage.forEach(item => item.style.transform = 'scaleX(1)');
+    showData.forEach(item => item.style.display = 'none');
+    text.forEach(item => item.textContent = "Revisar");
 });
