@@ -66,6 +66,9 @@ window.addEventListener("click", function (event) {
     // RECORREMOS LAS OPCIONES PARA VER CUAL CLICKEAMOS
     for (let x = 0; x < options.length; x++) {
         if (event.target === options[x]) {
+            rowImage.forEach(item => item.style.transform = 'scaleX(1)');
+            showData.forEach(item => item.style.display = 'none');
+            text.forEach(item => item.textContent = "Revisar");
             if (selected) {
                 selected.classList.remove("chosen");
             }
@@ -112,15 +115,4 @@ window.addEventListener("click", (event) => {
             break; // Importante: Salimos del bucle para evitar cambiar otros elementos no clickeados
         }
     }
-});
-
-// JAVASCRIPT PARA HACER UN RESET EN LOS ESTILOS DE LOS PROYECTOS
-
-const projects = document.querySelector(".portfolio__item");
-
-projects.addEventListener("click", () => {
-    // HACEMOS UN RESET DE LOS ELEMENTOS DE LOS PROYECTOS
-    rowImage.forEach(item => item.style.transform = 'scaleX(1)');
-    showData.forEach(item => item.style.display = 'none');
-    text.forEach(item => item.textContent = "Revisar");
 });

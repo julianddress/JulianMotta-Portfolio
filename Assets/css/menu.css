@@ -75,3 +75,31 @@ nav.abajo .separador{
 .menu__img{
     padding: 5px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .menu__contenido{
+        margin: 0 20px;
+    }
+
+    .separador{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .menu__item-link{
+        font-size: 12px;
+    }
+
+    .menu__item{
+        padding: 1px;
+    }
+
+    .menu__img{
+        padding: 2px;
+    }
+
+    .menu__img-item{
+        width: 30px;
+        height: 30px;
+    }
+}

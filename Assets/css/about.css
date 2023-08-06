@@ -46,3 +46,31 @@
     color: var(--fonts-white);
     text-transform: uppercase;
 }
+
+.about__resume{
+    line-height: 1.2;
+    letter-spacing: 0.09rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .about__features{
+        width: 390px;
+    }
+
+    .about__items{
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+    .about__description{
+        width: 320px;
+    }
+
+    .about__resume{
+        font-size: 16px;
+    }
+
+    .about__title{
+        -webkit-text-stroke: 1px black;
+    }
+}

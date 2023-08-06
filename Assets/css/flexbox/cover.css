@@ -4,14 +4,9 @@
     align-items: center;
 }
 
-.cover__overview{
-    display: flex;
-    flex-direction: column;
-}
-
 .cover__profile{
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .cover__btn-download-cv{
@@ -22,4 +17,16 @@
 .cover__row-image{
     display: flex;
     align-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .cover__profile{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cover__text-title{
+        display: flex;
+        justify-content: center;
+    }
 }

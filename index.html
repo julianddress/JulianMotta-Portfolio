@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="Assets/css/flexbox/education.css">
     <link rel="stylesheet" href="Assets/css/contact.css">
     <link rel="stylesheet" href="Assets/css/flexbox/contact.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+    <link rel="stylesheet" href="Assets/css/flexbox/footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;500;600;700&display=swap">
 </head>
 <body>
@@ -45,10 +47,10 @@
                     </ul>
                     <div class="menu__idiomas">
                         <a href="" class="menu__img">
-                            <img src="Assets/images/lenguaje_español.png" alt="Idioma español">
+                            <img src="Assets/images/lenguaje_español.png" alt="Idioma español" class="menu__img-item">
                         </a>
                         <a href="" class="menu__img">
-                            <img src="Assets/images/lenguaje_ingles.png" alt="Idioma ingles">
+                            <img src="Assets/images/lenguaje_ingles.png" alt="Idioma ingles" class="menu__img-item">
                         </a>
                     </div>
                 </div>
@@ -60,28 +62,27 @@
 
         <section class="cover" id="cover">
             
-            <div class="cover__overview">
-                <span class="cover__text-title">ubicado en colombia</span>
-                <h3 class="cover__text">Apasionado por el diseño y la programación e Innovando para ser diseñador de videojuegos.</h3>
-            </div>
-
             <div class="cover__profile">
-                <img src="Assets/images/foto-perfil-background.png" alt="Foto de perfil" class="cover__image">
-            </div>
+                <div class="cover__overview">
+                    <span class="cover__text-title">ubicado en colombia</span>
+                    <h3 class="cover__text">Apasionado por el diseño y la programación e Innovando para ser diseñador de videojuegos.</h3>
+                </div>
 
-            <div class="cover__greeting">
-                <h1 >Hola,<br> Soy <span class="cover__name">Julian Motta</span></h1>
-                <h3 class="cover__profession">Desarrollador Web</h3>
-                <button class="cover__btn-download-cv">
-                    <a class="cover__row-text" href="Assets/docs/cv-julian-motta-english.pdf" class="cover__row-image" target="_blank">
-                        Descargar CV
-                    </a>
-                    <a class="cover__row-image" href="Assets/docs/cv-julian-motta-english.pdf" target="_blank">
-                        <img class="cover__row-link" src="Assets/images/row_cv.png" alt="Flecha link cv">
-                    </a>
-                </button>
-            </div>
+                <img src="Assets/images/foto-perfil-background.png" alt="Foto de perfil" class="cover__image">                
 
+                <div class="cover__greeting">
+                    <h1 >Hola,<br> Soy <span class="cover__name">Julian Motta</span></h1>
+                    <h3 class="cover__profession">Desarrollador Web</h3>
+                    <button class="cover__btn-download-cv">
+                        <a class="cover__row-text" href="Assets/docs/cv-julian-motta-english.pdf" class="cover__row-image" target="_blank">
+                            Descargar CV
+                        </a>
+                        <a class="cover__row-image" href="Assets/docs/cv-julian-motta-english.pdf" target="_blank">
+                            <img class="cover__row-link" src="Assets/images/row_cv.png" alt="Flecha link cv">
+                        </a>
+                    </button>
+                </div>
+            </div>
         </section>
 
         <section class="about" id="about">
@@ -167,15 +168,15 @@
                 </div>
 
                 <!-- Contenedor de la informacion del proyecto -->
-                <div class="portfolio__project-info data">
+                <div class="portfolio__project-info data sp">
                     <h2 class="portfolio__project-title">Encriptador y Desencriptador de Texto</h2>
                     <p class="portfolio__project-description">
                         El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal.
                     </p>
                     <ul class="portfolio__project-list">
                         <li class="portfolio__project-item"><a href="#" class="portfolio__project-link signo">+</a></li>
-                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link" target="_blank">Repositorio</a></li>
-                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link" target="_blank">Demo</a></li>
+                        <li class="portfolio__project-item"><a href="https://github.com/julianddress/encryter" class="portfolio__project-link" target="_blank">Repositorio</a></li>
+                        <li class="portfolio__project-item"><a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">Demo</a></li>
                     </ul>
                 </div> 
                 
@@ -189,7 +190,7 @@
                     <img src="Assets/images/encriptador.png" alt="Proyecto IMPOLUJOS LED" class="portfolio__project-image">
                 </div>
 
-                <div class="portfolio__project-info data">
+                <div class="portfolio__project-info data fe">
                     <h2 class="portfolio__project-title">Lucamo - Proximamente Disponible</h2>
                     <p class="portfolio__project-description">
                         Aun en desarrollo...
@@ -284,15 +285,21 @@
                     <span class="contact__parrafo">Para procesos de contratación o proyectos personales no dudes en contactarme.</span>
                     <ul class="contact__list">
                         <li class="contact__item">
-                            <img src="Assets/images/icons/whatsapp.svg" alt="Icono de whatsapp" class="contact__icon">
+                            <a href="https://wa.me/573022478310?text=Hola!,%20me%20gustar%C3%ADa%20que%20pudieramos%20hablar%20sobre%20tu%20trabjo%20como%20desarrollador." target="_blank">
+                                <img src="Assets/images/icons/whatsapp.svg" alt="Icono de whatsapp" class="contact__icon">
+                            </a>
                             <span class="contact__icon-text">Whatsapp</span>
                         </li>
                         <li class="contact__item">
-                            <img src="Assets/images/icons/email.svg" alt="Icono de email" class="contact__icon">
+                            <a href="mailto:andres.mtta1@gmail.com" target="_blank">
+                                <img src="Assets/images/icons/email.svg" alt="Icono de email" class="contact__icon">
+                            </a>
                             <span class="contact__icon-text">Redactar Correo</span>
                         </li>
                         <li class="contact__item">
-                            <img src="Assets/images/icons/phone.svg" alt="Icono de un celular" class="contact__icon">
+                            <a href="tel:+373022478310" target="_blank">
+                                <img src="Assets/images/icons/phone.svg" alt="Icono de un celular" class="contact__icon">
+                            </a>
                             <span class="contact__icon-text">Llamar</span>
                         </li>
                     </ul>
@@ -321,7 +328,27 @@
             </div>
         </section>
 
+        <footer class="footer">
+            <section class="footer-section">
+                <div class="footer-container">
+                    <span class="logo">JM</span>
+                    <p class="copyright">&copy Copyright Julian Motta</p>
+                    <div class="social-medias">
+                        <a href="https://github.com/julianddress" class="social-media-item" target="_blank">
+                            <img src="Assets/images/icons/github.svg" alt="logo github">
+                        </a>
+                        <a href="https://www.linkedin.com/in/julianddres/" class="social-media-item" target="_blank">
+                            <img src="Assets/images/icons/linkedin.svg" alt="logo linkedin">
+                        </a>
+                        <a href="https://www.instagram.com/julianddres/" class="social-media-item" target="_blank">
+                            <img src="Assets/images/icons/instagram.svg" alt="logo instagram">
+                        </a>
+                    </div>
+                </div>
+            </section> 
+        </footer>
+
     </main>
-    <script src="./Assets/js/body.js" type="text/javascript"></script>
+    <script src="./js/body.js" type="text/javascript"></script>
 </body>
 </html>
