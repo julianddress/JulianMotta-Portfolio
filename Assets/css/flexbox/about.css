@@ -36,3 +36,13 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .about__list{
+        align-items: center;
+    }
+
+    .three{
+        align-self: center;
+    }
+}

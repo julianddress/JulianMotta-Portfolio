@@ -116,3 +116,13 @@ window.addEventListener("click", (event) => {
         }
     }
 });
+
+
+// JAVASCRIPT PARA EL MENU - RESPONSIVE
+
+const menuResponsive = document.querySelector(".menu__bar-img")
+const menuList = document.querySelector(".menu__options")
+
+menuResponsive.addEventListener("click", () =>{
+    menuList.classList.toggle('menu-mobile')
+});

@@ -13,6 +13,15 @@
     align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .menu__options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+    }
 }

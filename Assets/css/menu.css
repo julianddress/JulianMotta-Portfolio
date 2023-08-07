@@ -76,6 +76,14 @@ nav.abajo .separador{
     padding: 5px;
 }
 
+.menu__bar-img{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 60px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .menu__contenido{
         margin: 0 20px;
@@ -96,6 +104,68 @@ nav.abajo .separador{
 
     .menu__img{
         padding: 2px;
+    }
+
+    .menu__img-item{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    nav.abajo .menu__bar-img{
+        stroke: var(--fonts-white);
+    }
+
+    .menu__logo{
+        font-size: 25px;
+    }
+
+    nav.abajo .menu__item-link,
+    .menu__item-link{
+        font-size: 1.5rem;
+        color: var(--fonts-white);
+    }
+
+    .menu__options{
+        position: absolute;
+        background-color: rgba(94, 92, 92, 0.4);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(15px);
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .menu__options.menu-mobile{
+        margin-left: 0;
+    }
+
+    .menu__item{
+        margin: 20px 0;
+    }
+
+    .menu__bar-img{
+        display: block;
+    }
+
+    .menu__contenido{
+        margin: 0 40px;
+    }
+    
+    .separador{
+        display: none;
+    }
+
+    .menu__idiomas{
+        position: absolute;
+        top: 20px;
+        left: 30px;
     }
 
     .menu__img-item{

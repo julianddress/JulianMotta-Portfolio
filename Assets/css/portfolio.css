@@ -1,5 +1,5 @@
 .portfolio{
-    min-height: 1000px;
+    height: auto;
     background-color: var(--background-section-portfolio);
 }
 
@@ -18,8 +18,8 @@
 }
 
 .portfolio__item{
-    width: 100%;
-    margin: 50px 90px;
+    width: max-content;
+    padding: 50px 90px;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
@@ -75,6 +75,9 @@
 
 .portfolio__project-image{
     position: absolute;
+    border-radius: 15px;
+    width: 430px;
+    height: 320px;
     left: 11%;
     top: 13%;
 }
@@ -93,6 +96,7 @@
 }
 
 .portfolio__project-description{
+    line-height: 1.3;
     margin: 40px 0;
 }
 
@@ -105,4 +109,118 @@
 
 .signo{
     font-size: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .portfolio__item{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .portfolio__project-preview{
+        width: 320px;
+        height: 250px;
+    }
+
+    .portfolio__project-decoration{
+        top: 29%;
+        width: 240px;
+        height: 160px;
+        border-width: 5px;
+    }
+
+    .portfolio__project-image{
+        top: 18%;
+        width: 260px;
+        height: 180px;
+    }
+    
+    .portfolio__project-info{
+        width: 280px;
+        height: max-content;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio__project-title{
+        font-size: 15px;
+    }
+
+    .portfolio__project-description,
+    .portfolio__project-link{
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .signo{
+        font-size: 20px;
+    }
+
+    .portfolio__projects{
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .portfolio{
+        min-height: 600px;
+    }
+
+    .portfolio__options{
+        width: 90%;
+    }
+
+    .portfolio__item{
+        font-size: 12px;
+        padding: 5%;
+    }
+
+    .portfolio__project-text{
+        font-size: 15px;
+        margin: 10px 5px;
+    }
+
+    .portfolio__project-row{
+        width: 45px;
+        height: 40px;
+    }
+
+    .portfolio__project-preview{
+        width: 200px;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio__project-decoration{
+        top: 30%;
+        width: 150px;
+        height: 130px;
+        border-width: 3.5px;
+    }
+
+    .portfolio__project-image{
+        top: 22%;
+        width: 160px;
+        height: 140px;
+    }
+
+    .portfolio__project-info{
+        width: 30%;
+        height: max-content;
+        margin: 0 10px;
+    }
+
+    .portfolio__project-title{
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    .portfolio__project-description{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+
+    .portfolio__project-link{
+        font-size: 10px;
+    }
 }

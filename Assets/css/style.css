@@ -72,3 +72,13 @@ p{
     color: var(--fonts-grey);
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px){
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
