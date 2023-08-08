@@ -126,3 +126,23 @@ const menuList = document.querySelector(".menu__options")
 menuResponsive.addEventListener("click", () =>{
     menuList.classList.toggle('menu-mobile')
 });
+
+
+// JAVASCRIPT PARA APLICAR TRANSICIONES A LOS SECTION
+
+
+/* Variable para acceder las secciones con la clase "hidden" */
+const seccionesOcultas = document.querySelectorAll('.hidden');
+
+
+/* El Observer*/
+const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            entry.target.classList.toggle('mostrar', entry.isIntersecting);
+            // if(entry.isIntersecting) observer.unobserve(entry.target);        
+        });
+    },
+    {threshold: 0.75}
+);
+
+seccionesOcultas.forEach((seccion)=>observer.observe(seccion));
