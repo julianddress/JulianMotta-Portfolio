@@ -1,0 +1,87 @@
+{
+    "menu": {
+        "item-inicio": "Home",
+        "item-sobre-mi": "About me",
+        "item-experiencia": "Experience",
+        "item-portafolio": "Portfolio",
+        "item-formacion": "Education",
+        "item-contacto": "Contact"
+    },
+
+    "cover": {
+        "text-title": "located in colombia",
+        "text": "Passionate about design and programming and Innovating to be a video game designer.",
+        "name-h1": "Hi,<br> I'm",
+        "name-span": "Julian Motta",
+        "profession": "Web Developer",
+        "btn-text": "Download CV"
+    },
+
+    "about": {
+        "item-sistemas": "8th semester in Systems Engineering",
+        "item-desarrollador": "Specialized in Front End Development",
+        "item-tecnico": "Technician in Administrative Assistance",
+        "item-titulo": "about me",
+        "item-resumen": "I am concluding my degree in Systems Engineering with a career projection focused on game design and development. This is why I've embraced software development as my primary tool for acquiring knowledge in programming and user experience. Here, you'll find some personal information about me and relevant projects I've developed for people and even companies across various sectors of the job market."
+    },
+
+    "experience": {
+        "title": "experience"
+    },
+
+    "portfolio": {
+        "title": "portfolio",
+        "option-others": "Other Projects",
+
+        "project1-title": "Lucamo - Available Soon",
+        "project1-description": "Still working on it...",
+
+        "project2-title": "Encrypter and Unencrypter Text",
+        "project2-description": "Here, you will send or receive encrypted messages from your friends or even your family members in just one click away, it's an easy and practic interface, but if you have some doubts about it you can click on the + icon and you will find more information on detail.",
+
+        "project-item-repo": "Repository"
+    },
+
+    "education": {
+        "title": "education",
+        "title-academic": "Academic",
+
+        "academic-item1-title": "Systems Engineering",
+        "academic-item1-intensidad": "5 years Intensity",
+        "academic-item1-time": "In progress - UniLibre",
+        
+        "academic-item2-title": "Front End Development",
+        "academic-item2-intensidad": "6 mmonths Intensity",
+        "academic-item2-time": "In progress - Alura",
+
+        "academic-item3-title": "Web Aplications Development",
+        "academic-item3-intensidad": "200 hours Intensity",
+        "academic-item3-time": "2021 - UIS",
+
+        "academic-item4-title": "Programming Skills",
+        "academic-item4-intensidad": "600 hours Intensity",
+        "academic-item4-time": "2020 - UniNorte",
+
+        "academic-item5-title": "Technician in Administrative Assistance",
+        "academic-item5-intensidad": "2 years Intensity",
+        "academic-item5-time": "2018 - Sena",
+
+        "hobbies-title1": "Soccer",
+        "hobbies-title2": "Calisthenics",
+        "hobbies-title3": "American cinema"
+    },
+
+    "contact": {
+        "title": "contact",
+        "mensaje1": "Drop Me A Message",
+        "mensaje2": "For hiring processes or personal projects, feel free to contact me.",
+        "icono-email": "Email Me",
+        "icono-phone": "Call Me"
+    },
+
+    "form": {
+        "label-name": "Name",
+        "label-mensaje": "Message",
+        "btn-enviar": "Submit"
+    }
+}

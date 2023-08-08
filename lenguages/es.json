@@ -1,0 +1,87 @@
+{
+    "menu": {
+        "item-inicio": "Inicio",
+        "item-sobre-mi": "Sobre mi",
+        "item-experiencia": "Experiencia",
+        "item-portafolio": "Portafolio",
+        "item-formacion": "Formacion",
+        "item-contacto": "Contacto"
+    },
+
+    "cover": {
+        "text-title": "ubicado en colombia",
+        "text": "Apasionado por el diseño y la programación e Innovando para ser diseñador de videojuegos.",
+        "name-h1": "Hola, Soy",
+        "name-span": "<br>Julian Motta",
+        "profession": "Desarrollador Web",
+        "btn-text": "Descargar CV"
+    },
+
+    "about": {
+        "item-sistemas": "Octavo Semestre en Ingeniería de Sistemas",
+        "item-desarrollador": "Especializado en Desarrollo Front End",
+        "item-tecnico": "Técnico en Asistencia Administrativa",
+        "item-titulo": "sobre mi",
+        "item-resumen": "Estoy culminando mi carrera en ingeniería de sistemas y tengo mi proyeccion laboral en el diseño y desarrollo de videojuegos, por eso he acogido el desarrollo de software como mi principal herramienta para adquirir conocimiento tanto en programación y la experiencia del usuario. Acá encontrarás alguna información personal sobre mí y sobre proyectos relevantes que he desarrollado para personas e incluso empresas de distintas áreas del mercado laboral."
+    },
+
+    "experience": {
+        "title": "experiencia"
+    },
+
+    "portfolio": {
+        "title": "portafolio",
+        "option-others": "Otros proyectos",
+
+        "project1-title": "Lucamo - Proximamente Disponible",
+        "project1-description": "Aún en desarrollo...",
+
+        "project2-title": "Encriptador y Desencriptador de Texto",
+        "project2-description": "Acá podrás enviar y recibir mensajes cifrados de tus amigos o familiares con un solo click, su interfaz es sencilla y práctica, pero sí tienes dudas puedes dar click en el signo + y encontrarás más información al detalle.",
+
+        "project-item-repo": "Repositorio"
+    },
+
+    "education": {
+        "title": "formacion",
+        "title-academic": "Académica",
+
+        "academic-item1-title": "Ingeniería de Sistemas",
+        "academic-item1-intensidad": "Intensidad 5 años",
+        "academic-item1-time": "En curso - UniLibre",
+        
+        "academic-item2-title": "Desarrollo Front End",
+        "academic-item2-intensidad": "Intensidad 6 meses",
+        "academic-item2-time": "En curso - Alura",
+
+        "academic-item3-title": "Desarrollo de Aplicaciones Web",
+        "academic-item3-intensidad": "Intensidad 200 horas",
+        "academic-item3-time": "2021 - UIS",
+
+        "academic-item4-title": "Habilidades en programación",
+        "academic-item4-intensidad": "Intensidad 600 horas",
+        "academic-item4-time": "2020 - UniNorte",
+
+        "academic-item5-title": "Técnico en Asistencia Administrativa",
+        "academic-item5-intensidad": "Intensidad 2 años",
+        "academic-item5-time": "2018 - Sena",
+
+        "hobbies-title1": "Futbol",
+        "hobbies-title2": "Calistenia",
+        "hobbies-title3": "Cine Americano"
+    },
+
+    "contact": {
+        "title": "contacto",
+        "mensaje1": "Dejame Un Mensaje",
+        "mensaje2": "Para procesos de contratación o proyectos personales no dudes en contactarme.",
+        "icono-email": "Redactar Correo",
+        "icono-phone": "Llamar"
+    },
+
+    "form": {
+        "label-name": "Nombre",
+        "label-mensaje": "Mensaje",
+        "btn-enviar": "Enviar"
+    }
+}

@@ -33,25 +33,47 @@
                 <span class="menu__logo">JM</span>
                 <div class="menu__options">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#cover" class="menu__item-link">Inicio</a></li>
+                        <li class="menu__item">
+                            <a href="#cover" class="menu__item-link" 
+                            data-section="menu" data-value="item-inicio"
+                            >Inicio</a>
+                        </li>
                         <li class="menu__item separador">|</li>
-                        <li class="menu__item"><a href="#about" class="menu__item-link">Sobre mi</a></li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__item-link"
+                            data-section="menu" data-value="item-sobre-mi"
+                            >Sobre mi</a>
+                        </li>
                         <li class="menu__item separador">|</li>
-                        <li class="menu__item"><a href="#experience" class="menu__item-link">Experiencia</a></li>
+                        <li class="menu__item">
+                            <a href="#experience" class="menu__item-link"
+                            data-section="menu" data-value="item-experiencia"
+                            >Experiencia</a>
+                        </li>
                         <li class="menu__item separador">|</li>
-                        <li class="menu__item"><a href="#portfolio" class="menu__item-link">Portafolio</a></li>
+                        <li class="menu__item">
+                            <a href="#portfolio" class="menu__item-link"
+                            data-section="menu" data-value="item-portafolio"
+                            >Portafolio</a>
+                        </li>
                         <li class="menu__item separador">|</li>
-                        <li class="menu__item"><a href="#education" class="menu__item-link">Formación</a></li>
+                        <li class="menu__item">
+                            <a href="#education" class="menu__item-link" 
+                            data-section="menu" data-value="item-formacion"
+                            >Formación</a>
+                        </li>
                         <li class="menu__item separador">|</li>
-                        <li class="menu__item"><a href="#contact" class="menu__item-link">Contacto</a></li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__item-link" 
+                            data-section="menu" data-value="item-contacto"
+                            >Contacto</a>
+                        </li>
                     </ul>
-                    <div class="menu__idiomas">
-                        <a href="" class="menu__img">
-                            <img src="Assets/images/lenguaje_español.png" alt="Idioma español" class="menu__img-item">
-                        </a>
-                        <a href="" class="menu__img">
-                            <img src="Assets/images/lenguaje_ingles.png" alt="Idioma ingles" class="menu__img-item">
-                        </a>
+                    <div class="menu__idiomas" data-language="es">
+                        <img src="Assets/images/lenguaje_español.png" alt="Idioma español" class="menu__img-es">
+                    </div>
+                    <div class="menu__idiomas" data-language="en">
+                        <img src="Assets/images/lenguaje_ingles.png" alt="Idioma ingles" class="menu__img-en">
                     </div>
                 </div>
                 <img src="Assets/images/icons/menu.svg" alt="Icono del menu" class="menu__bar-img">
@@ -65,20 +87,31 @@
             
             <div class="cover__profile">
                 <div class="cover__overview">
-                    <span class="cover__text-title">ubicado en colombia</span>
-                    <h3 class="cover__text">Apasionado por el diseño y la programación e Innovando para ser diseñador de videojuegos.</h3>
+                    <span class="cover__text-title"
+                    data-section="cover" data-value="text-title">
+                        ubicado en colombia
+                    </span>
+                    <h3 class="cover__text" 
+                    data-section="cover" data-value="text">
+                        Apasionado por el diseño y la programación e Innovando para ser diseñador de videojuegos.
+                    </h3>
                 </div>
 
                 <img src="Assets/images/foto-perfil-background.png" alt="Foto de perfil" class="cover__image">                
 
                 <div class="cover__greeting">
-                    <h1 >Hola,<br> Soy <span class="cover__name">Julian Motta</span></h1>
-                    <h3 class="cover__profession">Desarrollador Web</h3>
+                    <h1 data-section="cover" data-value="name-h1">
+                        Hola, Soy 
+                    </h1>
+                    <span class="cover__name" data-section="cover" data-value="name-span">
+                        <br> Julian Motta
+                    </span>
+                    <h3 class="cover__profession" data-section="cover" data-value="profession">Desarrollador Web</h3>
                     <button class="cover__btn-download-cv">
-                        <a class="cover__row-text" href="Assets/docs/cv-julian-motta-english.pdf" class="cover__row-image" target="_blank">
+                        <a class="cover__row-text" href="Assets/pdf/cv-julian-motta-english.pdf" class="cover__row-image" data-section="cover" data-value="btn-text" target="_blank">
                             Descargar CV
                         </a>
-                        <a class="cover__row-image" href="Assets/docs/cv-julian-motta-english.pdf" target="_blank">
+                        <a class="cover__row-image" href="Assets/pdf/cv-julian-motta-english.pdf" target="_blank">
                             <img class="cover__row-link" src="Assets/images/row_cv.png" alt="Flecha link cv">
                         </a>
                     </button>
@@ -91,26 +124,34 @@
                 <img class="about__image" src="Assets/images/foto_portada.png" alt="Fofo perfil 2">
                 <div class="about__info">
                     <ul class="about__list">
-                        <li class="about__items one">Octavo Semestre en Ingeniería de Sistemas</li>
-                        <li class="about__items two">Especializado en Desarrollo Front End</li>
-                        <li class="about__items three">Técnico en Asistencia Administrativa</li>
+                        <li class="about__items one" data-section="about" data-value="item-sistemas">
+                            Octavo Semestre en Ingeniería de Sistemas
+                        </li>
+                        <li class="about__items two" data-section="about" data-value="item-desarrollador">
+                            Especializado en Desarrollo Front End
+                        </li>
+                        <li class="about__items three" data-section="about" data-value="item-tecnico">
+                            Técnico en Asistencia Administrativa
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="about__description">
-                <h2 class="about__title">
+                <h2 class="about__title" data-section="about" data-value="item-titulo">
                     sobre mi
                 </h2>
-                <p class="about__resume">
-                    Estoy culminando mi carrera en ingeniería de sistemas y tengo mi proyeccion laboral en el diseño y desarrollo de videojuegos, por eso he acogido el desarrollo de software como mi principal herramienta para adquirir conocimiento tanto en programación y diseño. Acá encontrarás alguna información personal sobre mí y sobre proyectos relevantes que he desarrollado para personas e incluso empresas de distintas áreas del mercado laboral.
+                <p class="about__resume" data-section="about" data-value="item-resumen">
+                    Estoy culminando mi carrera en ingeniería de sistemas y tengo mi proyeccion laboral en el diseño y desarrollo de videojuegos, por eso he acogido el desarrollo de software como mi principal herramienta para adquirir conocimiento tanto en programación y la experiencia del usuario. Acá encontrarás alguna información personal sobre mí y sobre proyectos relevantes que he desarrollado para personas e incluso empresas de distintas áreas del mercado laboral.
                 </p>
             </div>
         </section>
 
         <section class="experience" id="experience">
             <div class="experience__content">
-                <h2 class="experience__title">experiencia</h2>
+                <h2 class="experience__title" data-section="experience" data-value="title">
+                    experiencia
+                </h2>
                 <div class="experience__skills">
                     <div class="experience__item">
                         <img src="Assets/images/icons/aws.svg" alt="Logo AWS" class="experience__item-image">
@@ -147,11 +188,13 @@
         <section class="portfolio" id="portfolio">
 
             <div class="portfolio__options">
-                <h2 class="portfolio__title">portafolio</h2>
+                <h2 class="portfolio__title" data-section="portfolio" data-value="title">
+                    portafolio
+                </h2>
                 <ul class="portfolio__list">
                     <li class="portfolio__item front" id="seleccion">Front End</li>
                     <li class="portfolio__item full" id="seleccion">Full Stack</li>
-                    <li class="portfolio__item simple" id="seleccion">Otros Proyectos</li>
+                    <li class="portfolio__item simple" id="seleccion" data-section="portfolio" data-value="option-others">Otros Proyectos</li>
                 </ul>
             </div>
 
@@ -160,7 +203,9 @@
                 <!-- PROYECTOS FRONT END -->
                 <div class="portfolio__project-preview fe">
                     <div class="portfolio__project-top">
-                        <span class="portfolio__project-text text-row">Revisar</span>
+                        <span class="portfolio__project-text text-row">
+                            Revisar
+                        </span>
                         <img src="Assets/images/icons/right_row.svg" alt="Flecha derecha" class="portfolio__project-row flipped">
                     </div>
                     <div class="portfolio__project-decoration"></div>
@@ -168,21 +213,37 @@
                 </div>
 
                 <div class="portfolio__project-info data fe">
-                    <h2 class="portfolio__project-title">Lucamo - Proximamente Disponible</h2>
-                    <p class="portfolio__project-description">
+                    <h2 class="portfolio__project-title" data-section="portfolio" data-value="project1-title">
+                        Lucamo - Proximamente Disponible
+                    </h2>
+                    <p class="portfolio__project-description" data-section="portfolio" data-value="project1-description">
                         Aún en desarrollo...
                     </p>
                     <ul class="portfolio__project-list">
-                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link signo">+</a></li>
-                        <li class="portfolio__project-item"><a href="https://github.com/julianddress/encryter" class="portfolio__project-link" target="_blank">Repositorio</a></li>
-                        <li class="portfolio__project-item"><a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">Demo</a></li>
+                        <li class="portfolio__project-item">
+                            <a href="#" class="portfolio__project-link signo">
+                                +
+                            </a>
+                        </li>
+                        <li class="portfolio__project-item">
+                            <a href="https://github.com/julianddress/encryter" class="portfolio__project-link" target="_blank" data-section="portfolio" data-value="project-item-repo">
+                                Repositorio
+                            </a>
+                        </li>
+                        <li class="portfolio__project-item">
+                            <a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">
+                                Demo
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- PROYECTOS SIMPLES -->
                 <div class="portfolio__project-preview sp">
                     <div class="portfolio__project-top">
-                        <span class="portfolio__project-text text-row">Revisar</span>
+                        <span class="portfolio__project-text text-row">
+                            Revisar
+                        </span>
                         <img src="Assets/images/icons/right_row.svg" alt="Flecha derecha" class="portfolio__project-row flipped">
                     </div>
                     <div class="portfolio__project-decoration"></div>
@@ -190,14 +251,28 @@
                 </div>
 
                 <div class="portfolio__project-info data sp">
-                    <h2 class="portfolio__project-title">Encriptador y Desencriptador de Texto</h2>
-                    <p class="portfolio__project-description">
+                    <h2 class="portfolio__project-title" data-section="portfolio" data-value="project2-title">
+                        Encriptador y Desencriptador de Texto
+                    </h2>
+                    <p class="portfolio__project-description" data-section="portfolio" data-value="project2-description">
                         Acá podrás enviar y recibir mensajes cifrados de tus amigos o familiares con un solo click, su interfaz es sencilla y práctica, pero sí tienes dudas puedes dar click en el signo + y encontrarás más información al detalle.
                     </p>
                     <ul class="portfolio__project-list">
-                        <li class="portfolio__project-item"><a href="#" class="portfolio__project-link signo">+</a></li>
-                        <li class="portfolio__project-item"><a href="https://github.com/julianddress/encryter" class="portfolio__project-link" target="_blank">Repositorio</a></li>
-                        <li class="portfolio__project-item"><a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">Demo</a></li>
+                        <li class="portfolio__project-item">
+                            <a href="#" class="portfolio__project-link signo">
+                                +
+                            </a>
+                        </li>
+                        <li class="portfolio__project-item">
+                            <a href="https://github.com/julianddress/encryter" class="portfolio__project-link" target="_blank" data-section="portfolio" data-value="project-item-repo">
+                                Repositorio
+                            </a>
+                        </li>
+                        <li class="portfolio__project-item">
+                            <a href="https://julianddress.github.io/encryter/" class="portfolio__project-link" target="_blank">
+                                Demo
+                            </a>
+                        </li>
                     </ul>
                 </div> 
                 
@@ -209,66 +284,108 @@
                 <div class="circle-right"></div>
                 <div class="circle-left"></div>
 
-                <h2 class="education__title">formacion</h2>
+                <h2 class="education__title" data-section="education" data-value="title">
+                    formacion
+                </h2>
                 <div class="education__academic">
-                    <h2 class="education__academic-title">Académica</h2>
+                    <h2 class="education__academic-title" data-section="education" data-value="title-academic">
+                        Académica
+                    </h2>
                     <div class="education__academic-content"> 
                         <div class="education__academic-item">
                             <img src="Assets/images/icons/unilibre.svg" alt="Logo Universidad Libre" class="education__img">
                             <ul class="education__list">
-                                <li class="education__item">Ingeniería de Sistemas</li>
-                                <li class="education__item">Intensidad 5 años</li>
-                                <li class="education__item weight">En curso - UniLibre</li>
+                                <li class="education__item" data-section="education" data-value="project-item-repo" data-section="education" data-value="academic-item1-title">
+                                    Ingeniería de Sistemas
+                                </li>
+                                <li class="education__item" data-section="education" data-value="project-item-repo" data-section="education" data-value="academic-item1-intensidad">
+                                    Intensidad 5 años
+                                </li>
+                                <li class="education__item weight" data-section="education" data-value="project-item-repo" data-section="education" data-value="academic-item1-time">
+                                    En curso - UniLibre
+                                </li>
                             </ul>
                         </div>
                         <div class="education__academic-item">
-                            <img src="Assets/images/icons/oracle.svg" alt="Logo Oracle" class="education__img">
+                            <img src="Assets/images/icons/oracle.svg" alt="Logo Oracle" class="education__img" >
                             <ul class="education__list">
-                                <li class="education__item">Desarrollo Front End</li>
-                                <li class="education__item">Intensidad 6 meses</li>
-                                <li class="education__item weight">En curso - Alura</li>
+                                <li class="education__item" data-section="education" data-value="academic-item2-title">
+                                    Desarrollo Front End
+                                </li>
+                                <li class="education__item" data-section="education" data-value="academic-item2-intensidad">
+                                    Intensidad 6 meses
+                                </li>
+                                <li class="education__item weight" data-section="education" data-value="academic-item2-time">
+                                    En curso - Alura
+                                </li>
                             </ul>
                         </div>
                         <div class="education__academic-item">
                             <img src="Assets/images/icons/uis.svg" alt="Logo Universidad Industrial" class="education__img">
                             <ul class="education__list">
-                                <li class="education__item">Desarrollo de Aplicaciones Web</li>
-                                <li class="education__item">Intensidad 200 horas</li>
-                                <li class="education__item weight">2021 - UIS</li>
+                                <li class="education__item" data-section="education" data-value="academic-item3-title">
+                                    Desarrollo de Aplicaciones Web
+                                </li>
+                                <li class="education__item" data-section="education" data-value="academic-item3-intensidad">
+                                    Intensidad 200 horas
+                                </li>
+                                <li class="education__item weight" data-section="education" data-value="academic-item3-time">
+                                    2021 - UIS
+                                </li>
                             </ul>
                         </div>
                         <div class="education__academic-item">
                             <img src="Assets/images/icons/uninorte.svg" alt="Logo Universidad Del Norte" class="education__img">
                             <ul class="education__list">
-                                <li class="education__item">Habilidades en programación</li>
-                                <li class="education__item">Intensidad 600 horas</li>
-                                <li class="education__item weight">2020 - UniNorte</li>
+                                <li class="education__item" data-section="education" data-value="academic-item4-title">
+                                    Habilidades en programación
+                                </li>
+                                <li class="education__item" data-section="education" data-value="academic-item4-intensidad">
+                                    Intensidad 600 horas
+                                </li>
+                                <li class="education__item weight" data-section="education" data-value="academic-item4-time">
+                                    2020 - UniNorte
+                                </li>
                             </ul>
                         </div>
                         <div class="education__academic-item">
                             <img src="Assets/images/icons/sena.svg" alt="Logo del Sena" class="education__img">
                             <ul class="education__list">
-                                <li class="education__item">Técnico en Asistencia Administrativa</li>
-                                <li class="education__item">Intensidad 2 años</li>
-                                <li class="education__item weight">2018 - Sena</li>
+                                <li class="education__item" data-section="education" data-value="academic-item5-title">
+                                    Técnico en Asistencia Administrativa
+                                </li>
+                                <li class="education__item" data-section="education" data-value="academic-item5-intensidad">
+                                    Intensidad 2 años
+                                </li>
+                                <li class="education__item weight" data-section="education" data-value="academic-item5-time">
+                                    2018 - Sena
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="education__hobbies">
-                        <h2 class="education__hobbies-title">Hobbies</h2>
+                        <h2 class="education__hobbies-title">
+                            Hobbies
+                        </h2>
                         <div class="education__hobbies-list">
                             <div class="education__hobbies-item">
-                                <img src="Assets/images/icons/soccer.svg" alt="Logo Futbol" class="hobbie__img">
-                                <span class="education__hobbies-text">Futbol</span>
+                                <img src="Assets/images/icons/soccer.svg" alt="Logo Futbol" class="hobbie__img" >
+                                <span class="education__hobbies-text" data-section="education" data-value="hobbies-title1">
+                                    Futbol
+                                </span>
                             </div>
                             <div class="education__hobbies-item">
                                 <img src="Assets/images/icons/calisthenics.svg" alt="Logo Calistenia" class="hobbie__img">
-                                <span class="education__hobbies-text">Calistenia</span>
+                                <span class="education__hobbies-text" data-section="education" data-value="hobbies-title2">
+                                    Calistenia
+                                </span>
                             </div>
                             <div class="education__hobbies-item">
                                 <img src="Assets/images/icons/cinema.svg" alt="Logo Cine" class="hobbie__img">
-                                <span class="education__hobbies-text">Cine Americano</span>
+                                <span class="education__hobbies-text" data-section="education" data-value="hobbies-title3">
+                                    Cine Americano
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -278,29 +395,41 @@
         </section>
 
         <section class="contact" id="contact">
-            <h2 class="contact__title">contacto</h2>
+            <h2 class="contact__title" data-section="contact" data-value="title">
+                contacto
+            </h2>
             <div class="contact__content">
                 <div class="contact__media">
-                    <h3 class="contact__subtitulo">dejame un mensaje</h3>
-                    <span class="contact__parrafo">Para procesos de contratación o proyectos personales no dudes en contactarme.</span>
+                    <h3 class="contact__subtitulo" data-section="contact" data-value="mensaje1">
+                        dejame un mensaje
+                    </h3>
+                    <span class="contact__parrafo" data-section="contact" data-value="mensaje2">
+                        Para procesos de contratación o proyectos personales no dudes en contactarme.
+                    </span>
                     <ul class="contact__list">
                         <li class="contact__item">
                             <a href="https://wa.me/573022478310?text=Hola!,%20me%20gustar%C3%ADa%20que%20pudieramos%20hablar%20sobre%20tu%20trabjo%20como%20desarrollador." target="_blank">
                                 <img src="Assets/images/icons/whatsapp.svg" alt="Icono de whatsapp" class="contact__icon">
                             </a>
-                            <span class="contact__icon-text">Whatsapp</span>
+                            <span class="contact__icon-text">
+                                Whatsapp
+                            </span>
                         </li>
                         <li class="contact__item">
                             <a href="mailto:andres.mtta1@gmail.com" target="_blank">
                                 <img src="Assets/images/icons/email.svg" alt="Icono de email" class="contact__icon">
                             </a>
-                            <span class="contact__icon-text">Redactar Correo</span>
+                            <span class="contact__icon-text" data-section="contact" data-value="icono-email">
+                                Redactar Correo
+                            </span>
                         </li>
                         <li class="contact__item">
                             <a href="tel:+373022478310" target="_blank">
                                 <img src="Assets/images/icons/phone.svg" alt="Icono de un celular" class="contact__icon">
                             </a>
-                            <span class="contact__icon-text">Llamar</span>
+                            <span class="contact__icon-text" data-section="contact" data-value="icono-phone">
+                                Llamar
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -309,20 +438,29 @@
                     <fieldset>
                         <div class="input-container">
                             <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
-                            <label class="input-label" for="name">Nombre</label>
+                            <label class="input-label" for="name" data-section="form" data-value="label-name">
+                                Nombre
+                            </label>
+                            <span class="input-message-error">Este campo no es valido</span>
                             <!-- <span class="input-message-error">Este campo no es valido</span> -->
                         </div>
                         <div class="input-container">
                             <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
                             <label class="input-label" for="email">Email</label>
+                            <span class="input-message-error">Este campo no es valido</span>
                             <!-- <span class="input-message-error">Este campo no es valido</span> -->
                         </div>
                         <div class="input-container textarea">
                             <textarea name="mensaje" id="mensaje" class="input mensaje" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
-                            <label class="input-label" for="mensaje">Mensaje</label>
+                            <label class="input-label" for="mensaje" data-section="form" data-value="label-mensaje">
+                                Mensaje
+                            </label>
+                            <span class="input-message-error">Este campo no es valido</span>
                             <!-- <span class="input-message-error">Este campo no es valido</span> -->
                         </div>
-                        <button type="submit" class="contact__btn">Enviar</button>
+                        <button type="submit" class="contact__btn" data-section="form" data-value="btn-enviar">
+                            Enviar
+                        </button>
                     </fieldset>
                 </form>
             </div>
@@ -350,5 +488,7 @@
 
     </main>
     <script src="./js/body.js" type="text/javascript"></script>
+    <script src="./js/verificar.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 </html>

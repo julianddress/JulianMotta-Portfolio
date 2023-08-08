@@ -74,7 +74,7 @@ input{
     background-color: var(--input-black);
     border-radius: 12px;
     padding: 10px 20px 0 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--font-media);
     box-sizing: border-box;
@@ -90,6 +90,23 @@ textarea{
     font-weight: 500;
     color: var(--font-media);
     box-sizing: border-box;
+}
+
+.input-container--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.input-container--invalid .input-message-error {
+    display: block;
+    font-size: 12px;
+    color: red;
+    margin-top: 0.4rem;
+    padding-left: 0.3rem;
 }
 
 .input::placeholder {

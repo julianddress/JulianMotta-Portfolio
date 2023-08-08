@@ -38,17 +38,22 @@
 .cover__greeting{
     position: relative;
     top: 50px;
-    max-width: 340px;
+    max-width: 360px;
     height: max-content;
 }
 
 h1{
+    display: inline-block;
+    margin-right: 10px;
     font-size: 40px;
     font-weight: 700;
     color: var(--fonts-white);
 }
 
 .cover__name{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
     color: var(--fonts-red);
 }
 

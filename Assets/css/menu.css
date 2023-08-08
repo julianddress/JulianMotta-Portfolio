@@ -72,8 +72,8 @@ nav.abajo .separador{
     margin: 0 20px;
 }
 
-.menu__img{
-    padding: 5px;
+.menu__idiomas{
+    margin: 5px;
 }
 
 .menu__bar-img{
@@ -102,11 +102,12 @@ nav.abajo .separador{
         padding: 1px;
     }
 
-    .menu__img{
+    .menu__idiomas{
         padding: 2px;
     }
 
-    .menu__img-item{
+    .menu__img-es,
+    .menu__img-en{
         width: 30px;
         height: 30px;
     }
@@ -123,6 +124,7 @@ nav.abajo .separador{
 
     nav.abajo .menu__item-link,
     .menu__item-link{
+        left: 10%;
         font-size: 1.5rem;
         color: var(--fonts-white);
     }
@@ -146,6 +148,10 @@ nav.abajo .separador{
         margin-left: 0;
     }
 
+    .menu__list{
+        margin-right: 0;
+    }
+
     .menu__item{
         margin: 20px 0;
     }
@@ -162,14 +168,21 @@ nav.abajo .separador{
         display: none;
     }
 
-    .menu__idiomas{
-        position: absolute;
-        top: 20px;
-        left: 30px;
-    }
-
-    .menu__img-item{
+    .menu__img-es,
+    .menu__img-en{
         width: 30px;
         height: 30px;
+    }
+
+    .menu__img-es{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .menu__img-en{
+        position: absolute;
+        top: 60px;
+        left: 20px;
     }
 }
