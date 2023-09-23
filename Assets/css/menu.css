@@ -73,6 +73,7 @@ nav.abajo .separador{
 }
 
 .menu__idiomas{
+    cursor: pointer;
     margin: 5px;
 }
 

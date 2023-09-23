@@ -5,7 +5,6 @@ window.addEventListener("scroll", function(){
     nav.classList.toggle("abajo", window.scrollY > 0);
 })
 
-
 // JAVASCRIPT PARA LA SECTION MENU - AL SELECCIONAR UNA OPCION DEL ( NAV )
 
 let selectedElement = null;
@@ -144,5 +143,15 @@ const observer = new IntersectionObserver((entries) => {
     },
     {threshold: 0.75}
 );
+
+//PREVENT DEFAULT DE BOTON
+const botonEnviar = document.querySelectorAll("[btn-enviar]");
+
+botonEnviar.forEach(boton => {
+    boton.addEventListener("click", (event) => {
+        event.preventDefault();
+        // Tu código aquí
+    });
+});
 
 seccionesOcultas.forEach((seccion)=>observer.observe(seccion));
