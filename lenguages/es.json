@@ -39,6 +39,9 @@
         "project2-title": "Encriptador y Desencriptador de Texto",
         "project2-description": "Acá podrás enviar y recibir mensajes cifrados de tus amigos o familiares con un solo click, su interfaz es sencilla y práctica, pero sí tienes dudas puedes dar click en el signo + y encontrarás más información al detalle.",
 
+        "project3-title": "React App - Mi organización",
+        "project3-description": "Puedes crear nuevos equipos de trabajo, agregar colaboradores según al equipo que pertenezcan, seleccionar tus colaboradores favoritos, eliminar colaboradores y editar las paletas de colores.",
+
         "project-item-repo": "Repositorio"
     },
 

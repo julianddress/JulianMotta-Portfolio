@@ -39,6 +39,9 @@
         "project2-title": "Encrypter and Unencrypter Text",
         "project2-description": "Here, you will send or receive encrypted messages from your friends or even your family members in just one click away, it's an easy and practic interface, but if you have some doubts about it you can click on the + icon and you will find more information on detail.",
 
+        "project3-title": "React App - My organization",
+        "project3-description": "You can create new work teams, according to the work team you can add new collaborator, select your favorites collaborators, you can delete collaborators and edit the color palette.",
+
         "project-item-repo": "Repository"
     },
 
