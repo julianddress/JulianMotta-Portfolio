@@ -31,42 +31,32 @@
 }
 
 .education__title{
-    margin: 200px 0 50px 0;
+    margin: 200px 0 20px 0;
 }
 
 .education__academic{
     max-width: 1200px;
     height: auto;
-    margin: 50px 0 100px 0;
+    margin: 50px 0 80px 0;
 }
 
-.education__academic-content,
-.education__hobbies,
-.education__hobbies-list{
+.education__academic-content{
     width: 100%;
     height: auto;
     margin: 100px 0;
-}
-
-.education__academic-title,
-.education__hobbies-title{
-    text-transform: none;
-    margin: 20px 0 20px 0;
 }
 
 .education__academic-item{
     margin: 40px 70px;
 }
 
-.education__img,
-.hobbie__img{
+.education__img{
     height: 150px;
     width: auto;
     margin-bottom: 20px;
 }
 
-.education__item,
-.education__hobbies-text{
+.education__item{
     margin: 10px 0;
     font-size: 16px;
     font-weight: bold;
@@ -77,13 +67,8 @@
     font-weight: 100;
 }
 
-.education__hobbies-item{
-    margin: 40px 0;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .education__academic-title,
-    .education__hobbies-title{
+    .education__academic-title{
         margin-left: 5%;
     }
 
@@ -139,18 +124,5 @@
 
     .education__item{
         font-size: 12px;
-    }
-
-    .education__hobbies{
-        margin-bottom: 0;
-    }
-
-    .education__hobbies-list{
-        margin: 40px 0 0 0;
-    }
-
-    .hobbie__img{
-        width: 100px;
-        height: 120px;
     }
 }
