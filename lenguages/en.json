@@ -2,9 +2,8 @@
     "menu": {
         "item-inicio": "Home",
         "item-sobre-mi": "About me",
-        "item-experiencia": "Experience",
         "item-portafolio": "Portfolio",
-        "item-formacion": "Education",
+        "item-experiencia": "Experience",
         "item-contacto": "Contact"
     },
 
