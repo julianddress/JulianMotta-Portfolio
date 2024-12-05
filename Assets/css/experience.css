@@ -1,21 +1,42 @@
 .experience{
-    width: 100%;
-    height: auto;
-    background-color: var(--background-section-experience);
+    background-color: rgb(32, 38, 55, 1);
 }
 
 .experience__content{
+    position: relative;
+    width: 100%;
     height: auto;
-    width: 1400px;
-    margin: 50px 0;
+    border-radius: 150px 150px 0 0;
+    background-image: linear-gradient( var(--background-experience-start) 10%, var(--background-experience-middle) 60%, var(--background-experience-end) 90%);
+}
+
+.circle-right{
+    position: absolute;
+    right: 0;
+    top: -100px;
+    background-image: linear-gradient( var(--background-circle-start), var(--background-circle-end)); 
+    width: 150px;
+    height: 250px;
+    border-radius: 250px 0 0 250px;
+}
+
+.circle-left{
+    position: absolute;
+    left: -110px;
+    top: -130px;
+    background-image: linear-gradient(var(--background-circle-start), var(--background-circle-end)); 
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
 }
 
 .experience__title{
-    margin: 100px 0;
+    margin: 200px 0 20px 0;
 }
 
 .experience__skills{
     width: 100%;
+    padding: 50px 0 50px 0;
 }
 
 .experience__item{
@@ -37,7 +58,16 @@
     text-transform: uppercase;
 }
 
+.weight{
+    font-weight: 100;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .experience__skills{
+        margin-bottom: 50px;
+    }
+
     .experience__item{
         width: 110px;
         height: 140px;
@@ -51,6 +81,26 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
+
+    .circle-right{
+        right: 0;
+        top: -70px;
+        width: 90px;
+        height: 160px;
+        border-radius: 160px 0 0 160px;
+    }
+
+    .circle-left{
+        width: 180px;
+        height: 180px;
+        top: -90px;
+        left: -50px;
+    }
+
+    .experience__academic{
+        width: 90%;
+    }
+
     .experience__title{
         margin: 50px 0;
     }
@@ -70,7 +120,3 @@
         font-size: 15px;
     }
 }
-
-
-
-
