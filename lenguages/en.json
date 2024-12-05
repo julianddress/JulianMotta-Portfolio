@@ -18,11 +18,11 @@
     },
 
     "about": {
-        "item-sistemas": "8th semester in Systems Engineering",
-        "item-desarrollador": "Specialized in Front End Development",
-        "item-tecnico": "Technician in Administrative Assistance",
+        "item-sistemas": "Persuing a System's Engineering degree",
+        "item-desarrollador": "Front-End Developer with Freelance Experience",
+        "item-tecnico": "Experience in Agile Methodologies and Scrum",
         "item-titulo": "about me",
-        "item-resumen": "I am finishing my degree in Systems Engineering with a career projection focused on game design and development, that's why I've embraced software development as my primary tool for acquiring knowledge in programming and user experience. Here, you'll find some personal information about me and relevant projects I've developed for people and even multiple enterprises of the market."
+        "item-resumen": "Persuing a System's Engineering degree with a career projection focused on software development. This industry is my main tool for acquiring knowledge in both programming and user experience. Here, you will find relevant projects I have developed for individuals and even companies from various sectors of the job market."
     },
 
     "experience": {
@@ -43,35 +43,6 @@
         "project3-description": "You can create new work teams, according to the work team you can add new collaborator, select your favorites collaborators, you can delete collaborators and edit the color palette.",
 
         "project-item-repo": "Repository"
-    },
-
-    "education": {
-        "title": "education",
-        "title-academic": "Academic",
-
-        "academic-item1-title": "Systems Engineering",
-        "academic-item1-intensidad": "5 Years Intensity",
-        "academic-item1-time": "In progress - UniLibre",
-        
-        "academic-item2-title": "Front End Development",
-        "academic-item2-intensidad": "6 Months Intensity",
-        "academic-item2-time": "In progress - Alura",
-
-        "academic-item3-title": "Web Aplications Development",
-        "academic-item3-intensidad": "200 Hours Intensity",
-        "academic-item3-time": "2021 - UIS",
-
-        "academic-item4-title": "Programming Skills",
-        "academic-item4-intensidad": "600 Hours Intensity",
-        "academic-item4-time": "2020 - UniNorte",
-
-        "academic-item5-title": "Technician in Administrative Assistance",
-        "academic-item5-intensidad": "2 Years Intensity",
-        "academic-item5-time": "2018 - Sena",
-
-        "hobbies-title1": "Soccer",
-        "hobbies-title2": "Calisthenics",
-        "hobbies-title3": "American cinema"
     },
 
     "contact": {

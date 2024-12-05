@@ -18,11 +18,11 @@
     },
 
     "about": {
-        "item-sistemas": "Octavo Semestre en Ingeniería de Sistemas",
-        "item-desarrollador": "Especializado en Desarrollo Front End",
-        "item-tecnico": "Técnico en Asistencia Administrativa",
+        "item-sistemas": "Ingeniero en Sistemas en Proceso de Titulación",
+        "item-desarrollador": "Desarrollador Front-End con experiencia Freelance",
+        "item-tecnico": "Experiencia en Metodologías Ágiles y Scrum",
         "item-titulo": "sobre mi",
-        "item-resumen": "Estoy culminando mi carrera en ingeniería de sistemas y tengo mi proyeccion laboral en el diseño y desarrollo de videojuegos, por eso he acogido el desarrollo de software como mi principal herramienta para adquirir conocimiento tanto en programación y la experiencia del usuario. Acá encontrarás alguna información personal sobre mí y sobre proyectos relevantes que he desarrollado para personas e incluso empresas de distintas áreas del mercado laboral."
+        "item-resumen": "Proximo ingenierio en sistemas enfocado en el desarrollo de software, esta industria es mi principal herramienta para adquirir conocimiento tanto en programación como en la experiencia de usuario. Acá encontrarás proyectos relevantes que he desarrollado para personas e incluso empresas de distintas áreas del mercado laboral."
     },
 
     "experience": {
@@ -43,35 +43,6 @@
         "project3-description": "Puedes crear nuevos equipos de trabajo, agregar colaboradores según al equipo que pertenezcan, seleccionar tus colaboradores favoritos, eliminar colaboradores y editar las paletas de colores.",
 
         "project-item-repo": "Repositorio"
-    },
-
-    "education": {
-        "title": "formacion",
-        "title-academic": "Académica",
-
-        "academic-item1-title": "Ingeniería de Sistemas",
-        "academic-item1-intensidad": "Intensidad 5 años",
-        "academic-item1-time": "En curso - UniLibre",
-        
-        "academic-item2-title": "Desarrollo Front End",
-        "academic-item2-intensidad": "Intensidad 6 meses",
-        "academic-item2-time": "En curso - Alura",
-
-        "academic-item3-title": "Desarrollo de Aplicaciones Web",
-        "academic-item3-intensidad": "Intensidad 200 horas",
-        "academic-item3-time": "2021 - UIS",
-
-        "academic-item4-title": "Habilidades en programación",
-        "academic-item4-intensidad": "Intensidad 600 horas",
-        "academic-item4-time": "2020 - UniNorte",
-
-        "academic-item5-title": "Técnico en Asistencia Administrativa",
-        "academic-item5-intensidad": "Intensidad 2 años",
-        "academic-item5-time": "2018 - Sena",
-
-        "hobbies-title1": "Futbol",
-        "hobbies-title2": "Calistenia",
-        "hobbies-title3": "Cine Americano"
     },
 
     "contact": {

@@ -45,6 +45,11 @@
     margin: 80px;
 }
 
+.experience-img{
+    width: 60%;
+    height: 60%;
+}
+
 .experience__item-title{
     height: 100%;
     width: 100%;
