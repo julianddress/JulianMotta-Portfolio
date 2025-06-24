@@ -5,7 +5,7 @@ const flagEng = document.getElementById("flag-en");
 const textsToChange = document.querySelectorAll("[data-section]");
 
 const changeLenguage = async lenguage => {
-    const requestJson = await fetch(`./lenguages/${lenguage}.json`)
+    const requestJson = await fetch(`/${lenguage}.json`)
     const text = await requestJson.json();
 
     for (const textToChange of textsToChange) {
